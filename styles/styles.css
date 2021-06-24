@@ -33,3 +33,23 @@ footer {
     background-color: #FAF0EA;
     padding: 10px;
 }
+
+img {
+      height: 300px;
+  }
+  .barn {
+      display:flex;
+  }
+
+  #catpic {
+    display: inline-block
+  }
+  
+  #catpic.animate {
+    transform: translate(-150%);
+    transition-property: transform;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    transition-delay: 250ms;
+    
+  }
